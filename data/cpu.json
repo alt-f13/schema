@@ -1,0 +1,1322 @@
+[
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2403",
+      "cores": 4,
+      "freq": "1,80",
+      "turbo": null,
+      "cache": "10 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2407",
+      "cores": 4,
+      "freq": "2,20",
+      "turbo": null,
+      "cache": "10 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2418L",
+      "cores": 4,
+      "freq": "2,00",
+      "turbo": "2,10",
+      "cache": "10 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2420",
+      "cores": 6,
+      "freq": "1,90",
+      "turbo": "2,40",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2428L",
+      "cores": 6,
+      "freq": "1,80",
+      "turbo": "2,00",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2430",
+      "cores": 6,
+      "freq": "2,20",
+      "turbo": "2,70",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2430L",
+      "cores": 6,
+      "freq": "2,00",
+      "turbo": "2,50",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2440",
+      "cores": 6,
+      "freq": "2,40",
+      "turbo": "2,90",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2448L",
+      "cores": 8,
+      "freq": "1,80",
+      "turbo": "2,10",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2630L",
+      "cores": 6,
+      "freq": "2,00",
+      "turbo": "2,50",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2450",
+      "cores": 8,
+      "freq": "2,10",
+      "turbo": "2,90",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2450L",
+      "cores": 8,
+      "freq": "1,80",
+      "turbo": "2,30",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2470",
+      "cores": 8,
+      "freq": "2,30",
+      "turbo": "3,10",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2403 v2",
+      "cores": 4,
+      "freq": "1,80",
+      "turbo": "1,80",
+      "cache": "10 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2407 v2",
+      "cores": 4,
+      "freq": "2,40",
+      "turbo": "2,40",
+      "cache": "10 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2418L v2",
+      "cores": 6,
+      "freq": "2,00",
+      "turbo": "2,00",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2420 v2",
+      "cores": 6,
+      "freq": "2,20",
+      "turbo": "2,70",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2428L v2",
+      "cores": 8,
+      "freq": "1,80",
+      "turbo": "2,30",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2430 v2",
+      "cores": 6,
+      "freq": "2,50",
+      "turbo": "3,00",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2430L v2",
+      "cores": 6,
+      "freq": "2,40",
+      "turbo": "2,80",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2440 v2",
+      "cores": 8,
+      "freq": "1,90",
+      "turbo": "2,40",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2448L v2",
+      "cores": 10,
+      "freq": "1,80",
+      "turbo": "2,40",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2450 v2",
+      "cores": 8,
+      "freq": "2,50",
+      "turbo": "3,30",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2450L v2",
+      "cores": 10,
+      "freq": "1,70",
+      "turbo": "2,10",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-1356",
+      "name": "Xeon E5-2470 v2",
+      "cores": 10,
+      "freq": "2,40",
+      "turbo": "3,20",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2603",
+      "cores": 4,
+      "freq": "1,80",
+      "turbo": null,
+      "cache": "10 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2609",
+      "cores": 4,
+      "freq": "2,40",
+      "turbo": null,
+      "cache": "10 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2620",
+      "cores": 6,
+      "freq": "2,00",
+      "turbo": "2,50",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2630",
+      "cores": 6,
+      "freq": "2,30",
+      "turbo": "2,80",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2630L",
+      "cores": 6,
+      "freq": "2,00",
+      "turbo": "2,50",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2637",
+      "cores": 2,
+      "freq": "3,00",
+      "turbo": "3,50",
+      "cache": "5 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2640",
+      "cores": 6,
+      "freq": "2,50",
+      "turbo": "3,00",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2643",
+      "cores": 4,
+      "freq": "3,30",
+      "turbo": "3,50",
+      "cache": "10 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2648L",
+      "cores": 8,
+      "freq": "1,80",
+      "turbo": "2,10",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2650",
+      "cores": 8,
+      "freq": "2,00",
+      "turbo": "2,80",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2650L",
+      "cores": 8,
+      "freq": "1,80",
+      "turbo": "2,30",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2658",
+      "cores": 8,
+      "freq": "2,10",
+      "turbo": "2,40",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2660",
+      "cores": 8,
+      "freq": "2,20",
+      "turbo": "3,00",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2665",
+      "cores": 8,
+      "freq": "2,40",
+      "turbo": "3,10",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2667",
+      "cores": 6,
+      "freq": "2,90",
+      "turbo": "3,50",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2670",
+      "cores": 8,
+      "freq": "2,60",
+      "turbo": "3,30",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2680",
+      "cores": 8,
+      "freq": "2,70",
+      "turbo": "3,50",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2687W",
+      "cores": 8,
+      "freq": "3,10",
+      "turbo": "3,80",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2690",
+      "cores": 8,
+      "freq": "2,90",
+      "turbo": "3,80",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2603 v2",
+      "cores": 4,
+      "freq": "1,80",
+      "turbo": null,
+      "cache": "10 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2609 v2",
+      "cores": 4,
+      "freq": "2,50",
+      "turbo": "2,50",
+      "cache": "10 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2618L v2",
+      "cores": 6,
+      "freq": "2,00",
+      "turbo": "2,00",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2620 v2",
+      "cores": 6,
+      "freq": "2,10",
+      "turbo": "2,60",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2628L v2",
+      "cores": 8,
+      "freq": "1,90",
+      "turbo": "2,40",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2630 v2",
+      "cores": 6,
+      "freq": "2,60",
+      "turbo": "3,10",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2630L v2",
+      "cores": 6,
+      "freq": "2,40",
+      "turbo": "2,80",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2637 v2",
+      "cores": 4,
+      "freq": "3,50",
+      "turbo": "3,80",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2640 v2",
+      "cores": 8,
+      "freq": "2,00",
+      "turbo": "2,50",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2643 v2",
+      "cores": 6,
+      "freq": "3,50",
+      "turbo": "3,80",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2648L v2",
+      "cores": 10,
+      "freq": "1,90",
+      "turbo": "2,50",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2650 v2",
+      "cores": 8,
+      "freq": "2,60",
+      "turbo": "3,40",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2650L v2",
+      "cores": 10,
+      "freq": "1,70",
+      "turbo": "2,10",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2658 v2",
+      "cores": 10,
+      "freq": "2,40",
+      "turbo": "3,00",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2660 v2",
+      "cores": 10,
+      "freq": "2,20",
+      "turbo": "3,00",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2667 v2",
+      "cores": 8,
+      "freq": "3,30",
+      "turbo": "4,00",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2670 v2",
+      "cores": 10,
+      "freq": "2,50",
+      "turbo": "3,30",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2680 v2",
+      "cores": 10,
+      "freq": "2,80",
+      "turbo": "3,60",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2687W v2",
+      "cores": 8,
+      "freq": "3,40",
+      "turbo": "4,00",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2690 v2",
+      "cores": 10,
+      "freq": "3,00",
+      "turbo": "3,60",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2695 v2",
+      "cores": 12,
+      "freq": "2,40",
+      "turbo": "3,20",
+      "cache": "30 MB"
+    },
+    {
+      "socket": "LGA-2011",
+      "name": "Xeon E5-2697 v2",
+      "cores": 12,
+      "freq": "2,70",
+      "turbo": "3,50",
+      "cache": "30 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2603 v3",
+      "cores": 6,
+      "freq": "1,60",
+      "turbo": null,
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2608L v3",
+      "cores": 6,
+      "freq": "2,00",
+      "turbo": null,
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2609 v3",
+      "cores": 6,
+      "freq": "1,90",
+      "turbo": null,
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2618L v3",
+      "cores": 8,
+      "freq": "2,30",
+      "turbo": "3,40",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2620 v3",
+      "cores": 6,
+      "freq": "2,40",
+      "turbo": "3,20",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2623 v3",
+      "cores": 4,
+      "freq": "3,00",
+      "turbo": "3,50",
+      "cache": "10 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2628L v3",
+      "cores": 10,
+      "freq": "2,00",
+      "turbo": "2,50",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2630 v3",
+      "cores": 8,
+      "freq": "2,40",
+      "turbo": "3,20",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2630L v3",
+      "cores": 8,
+      "freq": "1,80",
+      "turbo": "2,90",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2637 v3",
+      "cores": 4,
+      "freq": "3,50",
+      "turbo": "3,70",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2640 v3",
+      "cores": 8,
+      "freq": "2,60",
+      "turbo": "3,40",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2643 v3",
+      "cores": 6,
+      "freq": "3,40",
+      "turbo": "3,70",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2648L v3",
+      "cores": 12,
+      "freq": "1,80",
+      "turbo": "2,50",
+      "cache": "30 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2650 v3",
+      "cores": 10,
+      "freq": "2,30",
+      "turbo": "3,00",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2650L v3",
+      "cores": 12,
+      "freq": "1,80",
+      "turbo": "2,50",
+      "cache": "30 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2658 v3",
+      "cores": 12,
+      "freq": "2,20",
+      "turbo": "2,90",
+      "cache": "30 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2658A v3",
+      "cores": 12,
+      "freq": "2,20",
+      "turbo": "2,90",
+      "cache": "30 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2660 v3",
+      "cores": 10,
+      "freq": "2,60",
+      "turbo": "3,30",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2667 v3",
+      "cores": 8,
+      "freq": "3,20",
+      "turbo": "3,60",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2670 v3",
+      "cores": 12,
+      "freq": "2,30",
+      "turbo": "3,10",
+      "cache": "30 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2680 v3",
+      "cores": 12,
+      "freq": "2,50",
+      "turbo": "3,30",
+      "cache": "30 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2683 v3",
+      "cores": 14,
+      "freq": "2,00",
+      "turbo": "3,00",
+      "cache": "35 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2690 v3",
+      "cores": 12,
+      "freq": "2,60",
+      "turbo": "3,50",
+      "cache": "30 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2695 v3",
+      "cores": 14,
+      "freq": "2,30",
+      "turbo": "3,30",
+      "cache": "35 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2697 v3",
+      "cores": 14,
+      "freq": "2,60",
+      "turbo": "3,60",
+      "cache": "35 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2698 v3",
+      "cores": 16,
+      "freq": "2,30",
+      "turbo": "3,60",
+      "cache": "40 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2699 v3",
+      "cores": 18,
+      "freq": "2,30",
+      "turbo": "3,60",
+      "cache": "45 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2603 v4",
+      "cores": 6,
+      "freq": "1,70",
+      "turbo": null,
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2609 v4",
+      "cores": 8,
+      "freq": "1,70",
+      "turbo": null,
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2620 v4",
+      "cores": 8,
+      "freq": "2,10",
+      "turbo": "3,00",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2623 v4",
+      "cores": 4,
+      "freq": "2,60",
+      "turbo": "3,20",
+      "cache": "10 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2630L v4",
+      "cores": 10,
+      "freq": "1,80",
+      "turbo": "2,90",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2630 v4",
+      "cores": 10,
+      "freq": "2,20",
+      "turbo": "3,10",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2637 v4",
+      "cores": 4,
+      "freq": "3,50",
+      "turbo": "3,70",
+      "cache": "15 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2640 v4",
+      "cores": 10,
+      "freq": "2,40",
+      "turbo": "3,40",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2643 v4",
+      "cores": 6,
+      "freq": "3,40",
+      "turbo": "3,70",
+      "cache": "20 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2650L v4",
+      "cores": 14,
+      "freq": "1,70",
+      "turbo": "2,50",
+      "cache": "35 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2650 v4",
+      "cores": 12,
+      "freq": "2,20",
+      "turbo": "2,90",
+      "cache": "30 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2660 v4",
+      "cores": 14,
+      "freq": "2,00",
+      "turbo": "3,20",
+      "cache": "35 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2667 v4",
+      "cores": 8,
+      "freq": "3,20",
+      "turbo": "3,60",
+      "cache": "25 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2680 v4",
+      "cores": 14,
+      "freq": "2,40",
+      "turbo": "3,30",
+      "cache": "35 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2683 v4",
+      "cores": 16,
+      "freq": "2,10",
+      "turbo": "3,00",
+      "cache": "40 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2687W v4",
+      "cores": 12,
+      "freq": "3,00",
+      "turbo": "3,50",
+      "cache": "30 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2690 v4",
+      "cores": 14,
+      "freq": "2,60",
+      "turbo": "3,50",
+      "cache": "35 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2695 v4",
+      "cores": 18,
+      "freq": "2,10",
+      "turbo": "3,30",
+      "cache": "45 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2697A v4",
+      "cores": 16,
+      "freq": "2,60",
+      "turbo": "3,60",
+      "cache": "40 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2697 v4",
+      "cores": 18,
+      "freq": "2,30",
+      "turbo": "3,60",
+      "cache": "45 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2698 v4",
+      "cores": 20,
+      "freq": "2,20",
+      "turbo": "3,60",
+      "cache": "50 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2699 v4",
+      "cores": 22,
+      "freq": "2,20",
+      "turbo": "3,60",
+      "cache": "55 MB"
+    },
+    {
+      "socket": "LGA-2011-3",
+      "name": "Xeon E5-2699A v4",
+      "cores": 22,
+      "freq": "2,40",
+      "turbo": "3,60",
+      "cache": "55 MB"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Bronze 3104",
+      "cores": 6,
+      "freq": "1,70",
+      "turbo": null,
+      "cache": "8,25 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon  Bronze 3106",
+      "cores": 8,
+      "freq": "1,70",
+      "turbo": null,
+      "cache": "11 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Silver 4108",
+      "cores": 8,
+      "freq": "1,80",
+      "turbo": "3,00",
+      "cache": "11 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Silver 4109T",
+      "cores": 8,
+      "freq": "2,00",
+      "turbo": "3,00",
+      "cache": "11 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Silver 4110",
+      "cores": 8,
+      "freq": "2,10",
+      "turbo": "3,00",
+      "cache": "11 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Silver 4112",
+      "cores": 4,
+      "freq": "2,60",
+      "turbo": "3,00",
+      "cache": "8,25 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Silver 4114",
+      "cores": 10,
+      "freq": "2,20",
+      "turbo": "3,00",
+      "cache": "13,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Silver 4114T",
+      "cores": 10,
+      "freq": "2,20",
+      "turbo": "3,00",
+      "cache": "13,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Silver 4116",
+      "cores": 12,
+      "freq": "2,10",
+      "turbo": "3,00",
+      "cache": "16,5 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Silver 4116T",
+      "cores": 12,
+      "freq": "2,10",
+      "turbo": "3,00",
+      "cache": "16,5 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 5115",
+      "cores": 10,
+      "freq": "2,40",
+      "turbo": "3,20",
+      "cache": "13,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 5118",
+      "cores": 12,
+      "freq": "2,30",
+      "turbo": "3,20",
+      "cache": "16,5 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 5120",
+      "cores": 14,
+      "freq": "2,20",
+      "turbo": "3,20",
+      "cache": "19,25 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 5120T",
+      "cores": 14,
+      "freq": "2,20",
+      "turbo": "3,20",
+      "cache": "19,25 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 5122",
+      "cores": 4,
+      "freq": "3,60",
+      "turbo": "3,70",
+      "cache": "16,5 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6126",
+      "cores": 12,
+      "freq": "2,60",
+      "turbo": "3,70",
+      "cache": "19,25 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6126F",
+      "cores": 12,
+      "freq": "2,60",
+      "turbo": "3,70",
+      "cache": "19,25 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6126T",
+      "cores": 12,
+      "freq": "2,60",
+      "turbo": "3,70",
+      "cache": "19,25 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6128",
+      "cores": 6,
+      "freq": "3,40",
+      "turbo": "3,70",
+      "cache": "19,25 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6130",
+      "cores": 16,
+      "freq": "2,10",
+      "turbo": "3,70",
+      "cache": "22 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6130F",
+      "cores": 16,
+      "freq": "2,10",
+      "turbo": "3,70",
+      "cache": "22 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6130T",
+      "cores": 16,
+      "freq": "2,10",
+      "turbo": "3,70",
+      "cache": "22 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6132",
+      "cores": 14,
+      "freq": "2,60",
+      "turbo": "3,70",
+      "cache": "19,25 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6134",
+      "cores": 8,
+      "freq": "3,20",
+      "turbo": "3,70",
+      "cache": "24,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6136",
+      "cores": 12,
+      "freq": "3,00",
+      "turbo": "3,70",
+      "cache": "24,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6138",
+      "cores": 20,
+      "freq": "2,00",
+      "turbo": "3,70",
+      "cache": "27,5 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6138F",
+      "cores": 20,
+      "freq": "2,00",
+      "turbo": "3,70",
+      "cache": "27,5 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6138P",
+      "cores": 20,
+      "freq": "2,00",
+      "turbo": "3,70",
+      "cache": "27,5 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6138T",
+      "cores": 20,
+      "freq": "2,00",
+      "turbo": "3,70",
+      "cache": "27,5 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6140",
+      "cores": 18,
+      "freq": "2,30",
+      "turbo": "3,70",
+      "cache": "24,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6142",
+      "cores": 16,
+      "freq": "2,60",
+      "turbo": "3,70",
+      "cache": "22 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6142F",
+      "cores": 16,
+      "freq": "2,60",
+      "turbo": "3,70",
+      "cache": "22 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6144",
+      "cores": 8,
+      "freq": "3,50",
+      "turbo": "4,20",
+      "cache": "24,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6146",
+      "cores": 12,
+      "freq": "3,20",
+      "turbo": "4,20",
+      "cache": "24,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6148",
+      "cores": 20,
+      "freq": "2,40",
+      "turbo": "3,70",
+      "cache": "27,5 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6150",
+      "cores": 18,
+      "freq": "2,70",
+      "turbo": "3,70",
+      "cache": "24,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6152",
+      "cores": 22,
+      "freq": "2,10",
+      "turbo": "3,70",
+      "cache": "30,25 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Gold 6154",
+      "cores": 18,
+      "freq": "3,00",
+      "turbo": "3,70",
+      "cache": "24,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Platinum 8153",
+      "cores": 16,
+      "freq": "2,00",
+      "turbo": "2,80",
+      "cache": "22 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Platinum 8156",
+      "cores": 4,
+      "freq": "3,60",
+      "turbo": "3,70",
+      "cache": "16,5 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Platinum 8158",
+      "cores": 12,
+      "freq": "3,00",
+      "turbo": "3,70",
+      "cache": "24,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Platinum 8160",
+      "cores": 24,
+      "freq": "2,10",
+      "turbo": "3,70",
+      "cache": "33 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Platinum 8160F",
+      "cores": 24,
+      "freq": "2,10",
+      "turbo": "3,70",
+      "cache": "33 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Platinum 8160T",
+      "cores": 24,
+      "freq": "2,10",
+      "turbo": "3,70",
+      "cache": "33 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Platinum 8164",
+      "cores": 26,
+      "freq": "2,00",
+      "turbo": "3,70",
+      "cache": "35,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Platinum 8168",
+      "cores": 24,
+      "freq": "2,70",
+      "turbo": "3,70",
+      "cache": "33 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Platinum 8170",
+      "cores": 26,
+      "freq": "2,10",
+      "turbo": "3,70",
+      "cache": "35,75 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Platinum 8176",
+      "cores": 28,
+      "freq": "2,10",
+      "turbo": "3,80",
+      "cache": "38,5 MB L3"
+    },
+    {
+      "socket": "LGA-3647",
+      "name": "Xeon Platinum 8176F",
+      "cores": 28,
+      "freq": "2,10",
+      "turbo": "3,80",
+      "cache": "38,5 MB L3"
+    }
+   ]

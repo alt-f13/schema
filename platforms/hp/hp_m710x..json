@@ -1,0 +1,39 @@
+{
+    "title": "HP m710x",
+    "description": "Moonshot",
+    "type": "object",
+    "properties": {
+        "vendor": {
+            "description": "vendor",
+            "type": "string"
+        },
+        "model": {
+            "description": "model",
+            "type": "string"
+        },
+        "type": {
+            "description": "Тип сервера",
+            "type": "string"
+        },
+        "socket_qty": {
+            "description": "Количество сокетов",
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4
+        },
+        "socket_type": {
+            "description": "Socket",
+            "type": "string"
+        },
+        "ram_type": {
+            "description": "",
+            "type": "string"
+        },
+        "ram_slots": {
+            "description": "",
+            "type": "array",
+            ""
+        }
+    },
+    "required": [ "productId" ]
+  }

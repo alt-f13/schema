@@ -1,0 +1,55 @@
+[
+    {
+        "type": "blade",
+        "vendor": "HP",
+        "model": "m710x",
+        "case": "moonshot",
+        "cpu": {
+            "socket": "m710x",
+            "max": 1
+        },
+        "ram": {
+            "type": "ddr4 sodimm",
+            "max": 4
+        },
+        "disk": {
+            "type": "nvme",
+            "max": 4
+        },
+        "net": {
+            "type": "m710x"
+        },
+        "graphics": "Intel Iris Pro Graphics P580",
+        "raid": ["software"],
+        "price": 3000
+    },
+    {
+        "type": "blade",
+        "vendor": "dell",
+        "model": "m620",
+        "case": "m1000e",
+        "generation": 12,
+        "cpu": {
+            "max": 2,
+            "socket": "1152"
+        },
+        "ram": {
+            "type": "ddr3",
+            "max": 24
+        },
+        "disk": {
+            "type": "sff",
+            "max": 2
+        },
+        "net": {
+            "type": "m6xx"
+        },
+        "graphics": "none",
+        "raid": [
+            "software",
+            "Perc H310 HBA",
+            "Perc H710 512Mb cache"
+        ],
+        "price": 2500
+    }
+]

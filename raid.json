@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "raid.json#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type":"string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "name": {
+            "type":"string"
+        },
+        "interface": {
+            "type": "string"
+        },
+        "speed": {
+            "type": "string"
+        },
+        "cache": {
+            "type": "string"
+        },
+        "compatible": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "price": {
+            "type": "integer"
+        }
+    },
+    "required": ["id", "type", "name", "interface", "speed", "price"]
+}

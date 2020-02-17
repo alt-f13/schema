@@ -1,0 +1,44 @@
+[
+    {
+        "type": "ddr3",
+        "size": "8",
+        "freq": "1333",
+        "price": "1000"
+    },
+    {
+        "type": "ddr3",
+        "size": "16",
+        "freq": "1333",
+        "price": "2000"
+    },
+    {
+        "type": "ddr3",
+        "size": "32",
+        "freq": "1600",
+        "price": "3000"
+    },
+    {
+        "type": "ddr4",
+        "size": "16",
+        "freq": "2133",
+        "price": "2000"
+    },
+    {
+        "type": "ddr4",
+        "size": "32",
+        "freq": "24000",
+        "price": "4000"
+    },
+    {
+        "type": "ddr4-sodimm",
+        "size": "16",
+        "freq": "1333",
+        "price": "1700"
+    },   
+    {
+        "type": "ddr4-sodimm",
+        "size": "32",
+        "freq": "1333",
+        "price": "3500"
+    }
+]

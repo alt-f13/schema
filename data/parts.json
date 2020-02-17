@@ -1,0 +1,144 @@
+[
+    {
+        "part": "ram",
+        "type": "ddr4 sodimm",
+        "size": 16,
+        "price": 950
+    },
+    {
+        "part": "ram",
+        "type": "ddr4 sodimm",
+        "size": 32,
+        "price": 2500
+    },
+    {
+        "part": "ram",
+        "type": "ddr4",
+        "size": 32,
+        "price": 2000
+    },
+    {
+        "part": "ram",
+        "type": "ddr3",
+        "size": 16,
+        "price": 800
+    },
+    {
+        "part": "ram",
+        "type": "ddr3",
+        "size": 32,
+        "price": 1600
+    },
+    {
+        "part": "disk",
+        "type": "NVME SSD",
+        "port": "PCI-E 4x 2280",
+        "size": 512,
+        "price": 1200
+    },
+    {
+        "part": "disk",
+        "type": "NVME SSD",
+        "port": "PCI-E 4x 2280",
+        "size": 1024,
+        "price": 2500
+    },
+    {
+        "part": "disk",
+        "type": "nvme ssd",
+        "port": "pci-e 4x 2280",
+        "size": 1912,
+        "price": 4000
+    },
+    {
+        "part": "disk",
+        "type": "ssd",
+        "port": "sff",
+        "size": 1920,
+        "price": 2500
+    },
+    {
+        "part": "disk",
+        "type": "hdd",
+        "port": "sff",
+        "size": 600,
+        "price": 1000
+    },
+    {
+        "part": "net",
+        "type": "m6xx",
+        "name": "Qlogic 52866",
+        "speed": 10000,
+        "price": 1000
+    },  
+    {
+        "part": "net",
+        "type": "m6xx",
+        "speed": 1000,
+        "price": 0
+    },
+    {
+        "part": "net",
+        "type": "m710x",
+        "name": "Mellanox Connect-X3",
+        "speed": 10000,
+        "port": 2,
+        "price": 0
+    },
+    {
+        "part": "raid",
+        "type": "integrated",
+        "name": "perc s110",
+        "cache": 0,
+        "price": 0
+    },
+    {
+        "part": "raid",
+        "type": "hba",
+        "name": "perc h310",
+        "cache": 0,
+        "price": 700
+    },
+    {
+        "part": "raid",
+        "type": "hardware",
+        "name": "perc h710p",
+        "cache": 512,
+        "price": 1500
+    },
+    {
+        "part": "usb",
+        "type": "sd card",
+        "size": 4,
+        "price": 100
+    },
+    {
+        "part": "cpu",
+        "socket": "1152",
+        "generation": 12,
+        "name": "Intel Xeon E5-2667v2",
+        "cores": 8,
+        "freq": 3.3,
+        "turbo": 3.7,
+        "price": 1200
+    },
+    {
+        "part": "cpu",
+        "socket": "1152",
+        "generation": 12,
+        "name": "Intel E5-2680v2",
+        "cores": 10,
+        "freq": 2.8,
+        "turbo": 3.3,
+        "price": 1200
+    },
+    {
+        "part": "cpu",
+        "socket": "m710x",
+        "model": "Intel E3-1585Lv5",
+        "freq": 3,
+        "turbo": 3.7,
+        "price": 1400
+    },
+
+]

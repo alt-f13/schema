@@ -1,0 +1,47 @@
+[
+    {
+        "formfactor": "sff",
+        "interface": "sata",
+        "type": "ssd",
+        "size": 1000,
+        "price": 1500
+    },
+    {
+        "formfactor": "sff",
+        "interface": "sata",
+        "type": "ssd",
+        "size": 1920,
+        "price": 3000
+    },  
+    {
+        "formfactor": "m2-2280",
+        "interface": "pci-e",
+        "type": "ssd-nvme",
+        "size": 512,
+        "price": 3000
+    },  
+    {
+        "formfactor": "lff",
+        "interface": "sata",
+        "type": "hdd",
+        "size": 500,
+        "speed": 7200,
+        "price": 500
+    },
+    {
+        "formfactor": "lff",
+        "interface": "sata",
+        "type": "hdd",
+        "size": 1000,
+        "speed": 7200,
+        "price": 3000
+    },
+    {
+        "formfactor": "sff",
+        "interface": "sas",
+        "type": "hdd",
+        "size": 600,
+        "speed": 10000,
+        "price": 3000
+    }
+]

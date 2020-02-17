@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "power.json#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type":"string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "name": {
+            "type":"string"
+        },
+        "power": {
+            "type": "integer"
+        },
+        "compatible": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "price": {
+            "type": "integer"
+        }
+    },
+    "required": ["id", "type", "name", "power", "price"]
+}
