@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://schema.servermall.ru/dell/m620.json",
+    "title": "",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "title": "Id номенклатуры"
+        },
+        "type": {
+            "type": "array",
+            "title": "Тип устройства",
+            "enum": [1,2,3],
+            "description": ""
+        },
+        "vendor": {
+            "type": "string",
+            "title": "Название производителя"
+        },
+        "name": {
+            "type": "string",
+            "title": "Название модели"
+        },
+        "desc": {
+            "type": "string",
+            "title": "Описание модели"
+        },
+        "partNumber": {
+            "type": "array",
+            "title": "Part Number",
+            "items": {
+                "type": "string"
+            }
+        },
+        "price": {
+            "type": "integer",
+            "title": "Цена"
+        }
+    }
+}

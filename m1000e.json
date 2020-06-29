@@ -1,0 +1,686 @@
+{
+  "title": "m1000e",
+  "type": "object",
+  "description": "Dell m1000e blade chasis",
+  "x-examples": {},
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "chasis"
+      ]
+    },
+    "servers": {
+      "type": "object",
+      "properties": {
+        "filter": {
+          "type": "string",
+          "enum": [
+            "m1000e"
+          ]
+        },
+        "parts": {
+          "type": "array",
+          "maxItems": 16,
+          "minItems": 0,
+          "items": {
+            "anyOf": [
+              {
+                "type": "object",
+                "title": "m620",
+                "description": "Dell PowerEdge m620",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "description": "ID номенклатуры",
+                    "format": "uuid"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "m1000e"
+                    ],
+                    "description": "Фильтр совместимости"
+                  },
+                  "cpu": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "array",
+                        "enum": [
+                          "lga2011"
+                        ],
+                        "items": {}
+                      },
+                      "parts": {
+                        "type": "array",
+                        "maxItems": 2,
+                        "minItems": 1,
+                        "items": {
+                          "$ref": "../parts/cpu.v1.json"
+                        }
+                      }
+                    }
+                  },
+                  "ram": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "array",
+                        "enum": [
+                          "ddr3",
+                          "dimm"
+                        ],
+                        "items": {}
+                      },
+                      "parts": {
+                        "type": "array",
+                        "maxItems": 24,
+                        "minItems": 1,
+                        "items": {
+                          "$ref": "../parts/ram.v1.json"
+                        }
+                      }
+                    }
+                  },
+                  "disk": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "array",
+                        "enum": [
+                          "sff"
+                        ],
+                        "items": {}
+                      },
+                      "parts": {
+                        "type": "array",
+                        "maxItems": 2,
+                        "minItems": 1,
+                        "items": {
+                          "$ref": "../parts/disk.v1.json"
+                        }
+                      }
+                    }
+                  },
+                  "ndc": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "array",
+                        "enum": [
+                          "m620"
+                        ],
+                        "items": {}
+                      },
+                      "part": {
+                        "$ref": "../parts/ndc.v1.json"
+                      }
+                    }
+                  },
+                  "raid": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "string",
+                        "enum": [
+                          "m620"
+                        ]
+                      },
+                      "part": {
+                        "$ref": "../parts/raid.v1.json"
+                      }
+                    }
+                  },
+                  "price": {
+                    "type": "number",
+                    "minimum": 0
+                  }
+                }
+              },
+              {
+                "title": "m630",
+                "type": "object",
+                "description": "Dell PowerEdge m630",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "format": "uuid",
+                    "description": "ID номенклатуры"
+                  },
+                  "price": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "raid": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "string",
+                        "enum": [
+                          "m630"
+                        ]
+                      },
+                      "part": {
+                        "$ref": "../parts/raid.v1.json"
+                      }
+                    }
+                  },
+                  "ndc": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "array",
+                        "enum": [
+                          "m630"
+                        ],
+                        "items": {}
+                      },
+                      "part": {
+                        "$ref": "../parts/ndc.v1.json"
+                      }
+                    }
+                  },
+                  "disk": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "array",
+                        "enum": [
+                          "sff"
+                        ],
+                        "items": {}
+                      },
+                      "parts": {
+                        "type": "array",
+                        "maxItems": 2,
+                        "minItems": 1,
+                        "items": {
+                          "$ref": "../parts/disk.v1.json"
+                        }
+                      }
+                    }
+                  },
+                  "ram": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "array",
+                        "enum": [
+                          "dimm",
+                          "ddr4"
+                        ],
+                        "items": {}
+                      },
+                      "parts": {
+                        "type": "array",
+                        "maxItems": 24,
+                        "minItems": 1,
+                        "items": {
+                          "$ref": "../parts/ram.v1.json"
+                        }
+                      }
+                    }
+                  },
+                  "cpu": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "array",
+                        "enum": [
+                          "lga2011-3"
+                        ],
+                        "items": {}
+                      },
+                      "parts": {
+                        "type": "array",
+                        "maxItems": 2,
+                        "minItems": 1,
+                        "items": {
+                          "$ref": "../parts/cpu.v1.json"
+                        }
+                      }
+                    }
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "m1000e"
+                    ],
+                    "description": "Фильтр совместимости"
+                  }
+                }
+              },
+              {
+                "title": "m630",
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "description": "ID номенклатуры",
+                    "format": "uuid"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "m1000e"
+                    ],
+                    "description": "Фильтр совместимости"
+                  },
+                  "cpu": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "array",
+                        "enum": [
+                          "lga2011-3"
+                        ],
+                        "items": {}
+                      },
+                      "parts": {
+                        "type": "array",
+                        "maxItems": 2,
+                        "minItems": 1,
+                        "items": {
+                          "$ref": "../parts/cpu.v1.json"
+                        }
+                      }
+                    }
+                  },
+                  "ram": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "array",
+                        "enum": [
+                          "dimm",
+                          "ddr4"
+                        ],
+                        "items": {}
+                      },
+                      "parts": {
+                        "type": "array",
+                        "maxItems": 24,
+                        "minItems": 1,
+                        "items": {
+                          "$ref": "../parts/ram.v1.json"
+                        }
+                      }
+                    }
+                  },
+                  "disk": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "array",
+                        "enum": [
+                          "sff"
+                        ],
+                        "items": {}
+                      },
+                      "parts": {
+                        "type": "array",
+                        "maxItems": 2,
+                        "minItems": 1,
+                        "items": {
+                          "$ref": "../parts/disk.v1.json"
+                        }
+                      }
+                    }
+                  },
+                  "ndc": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "array",
+                        "enum": [
+                          "m630"
+                        ],
+                        "items": {}
+                      },
+                      "part": {
+                        "$ref": "../parts/ndc.v1.json"
+                      }
+                    }
+                  },
+                  "raid": {
+                    "type": "object",
+                    "properties": {
+                      "filter": {
+                        "type": "string",
+                        "enum": [
+                          "m630"
+                        ]
+                      },
+                      "part": {
+                        "$ref": "../parts/raid.v1.json"
+                      }
+                    }
+                  },
+                  "price": {
+                    "type": "number",
+                    "minimum": 0
+                  }
+                },
+                "description": "Dell PowerEdge m630",
+                "x-tags": [
+                  "m1000e"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "network": {
+      "type": "object",
+      "properties": {
+        "filter": {
+          "type": "string"
+        },
+        "parts": {
+          "type": "array",
+          "maxItems": 6,
+          "minItems": 1,
+          "items": {
+            "title": "switch",
+            "type": "object",
+            "description": "",
+            "x-tags": [
+              ""
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "ID номенклатуры",
+                "format": "uuid"
+              },
+              "protocol": {
+                "type": "string",
+                "enum": [
+                  "ethernet",
+                  "fc",
+                  "infinityband"
+                ]
+              },
+              "speed": {
+                "type": "string"
+              },
+              "internallPorts": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "title": "network-port",
+                  "description": "Порт сетевой карты",
+                  "additionalProperties": false,
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "spf",
+                        "spf+",
+                        "qsfp+",
+                        "rj45",
+                        "internal"
+                      ],
+                      "minLength": 3
+                    },
+                    "speed": {
+                      "type": "number",
+                      "minimum": 10
+                    }
+                  }
+                }
+              },
+              "externalPorts": {
+                "type": "array",
+                "maxItems": 4,
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "title": "network-port",
+                  "description": "Порт сетевой карты",
+                  "additionalProperties": false,
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "spf",
+                        "spf+",
+                        "qsfp+",
+                        "rj45",
+                        "internal"
+                      ],
+                      "minLength": 3
+                    },
+                    "speed": {
+                      "type": "number",
+                      "minimum": 10
+                    }
+                  }
+                }
+              },
+              "partNumber": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "description": {
+                "type": "string",
+                "description": "Описание"
+              },
+              "type": {
+                "type": "array",
+                "description": "Тип запчасти, фильтр",
+                "minItems": 1,
+                "items": {}
+              },
+              "vendor": {
+                "type": "string",
+                "enum": [
+                  "Intel"
+                ],
+                "example": "Intel",
+                "description": "Производитель"
+              },
+              "name": {
+                "type": "string",
+                "description": "Название"
+              },
+              "price": {
+                "type": "number",
+                "default": 0,
+                "description": "Цена",
+                "format": "double",
+                "example": "0",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "id",
+              "protocol",
+              "speed",
+              "type",
+              "vendor",
+              "name",
+              "price"
+            ]
+          }
+        }
+      }
+    },
+    "psu": {
+      "type": "object",
+      "properties": {
+        "filter": {
+          "type": "string",
+          "enum": [
+            "m1000e"
+          ]
+        },
+        "parts": {
+          "type": "array",
+          "maxItems": 6,
+          "minItems": 2,
+          "items": {
+            "title": "psu",
+            "type": "object",
+            "x-tags": [
+              ""
+            ],
+            "description": "Power supply unit, Блок питания  ",
+            "properties": {
+              "id": {
+                "type": "string",
+                "format": "uuid",
+                "description": "ID номенклатуры"
+              },
+              "price": {
+                "type": "number",
+                "default": 0,
+                "description": "Цена",
+                "format": "double",
+                "example": "0",
+                "minimum": 0
+              },
+              "name": {
+                "type": "string",
+                "description": "Название"
+              },
+              "vendor": {
+                "type": "string",
+                "enum": [
+                  "Intel"
+                ],
+                "example": "Intel",
+                "description": "Производитель"
+              },
+              "type": {
+                "type": "array",
+                "description": "Тип запчасти, фильтр",
+                "minItems": 1,
+                "items": {}
+              },
+              "description": {
+                "type": "string",
+                "description": "Описание"
+              },
+              "partNumber": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "power": {
+                "type": "string"
+              },
+              "voltage": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "price",
+              "name",
+              "vendor",
+              "type"
+            ]
+          }
+        }
+      }
+    },
+    "fan": {
+      "type": "object",
+      "properties": {
+        "filter": {
+          "type": "string"
+        },
+        "parts": {
+          "type": "array",
+          "maxItems": 9,
+          "minItems": 4,
+          "items": {
+            "title": "psu",
+            "type": "object",
+            "x-tags": [
+              ""
+            ],
+            "description": "Power supply unit, Блок питания  ",
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "ID номенклатуры",
+                "format": "uuid"
+              },
+              "partNumber": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "description": {
+                "type": "string",
+                "description": "Описание"
+              },
+              "type": {
+                "type": "string",
+                "description": "Тип запчасти, фильтр"
+              },
+              "vendor": {
+                "type": "string",
+                "enum": [
+                  "Intel"
+                ],
+                "example": "Intel",
+                "description": "Производитель"
+              },
+              "name": {
+                "type": "string",
+                "description": "Название"
+              },
+              "price": {
+                "type": "number",
+                "default": 0,
+                "description": "Цена",
+                "format": "double",
+                "example": "0",
+                "minimum": 0
+              },
+              "speed": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "vendor",
+              "name",
+              "price"
+            ]
+          }
+        }
+      }
+    },
+    "price": {
+      "type": "number"
+    },
+    "size": {
+      "type": "number",
+      "enum": [
+        10
+      ],
+      "minimum": 1
+    },
+    "cmc": {
+      "type": "number"
+    },
+    "kvm": {
+      "type": "boolean"
+    }
+  }
+}
