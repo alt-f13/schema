@@ -1,84 +1,85 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://schema.servermall.ru/dell/m620.json",
-    "title": "",
-    "description": "",
-    "type": "object",
-    "properties": {
-        "props": {
-            "$ref": "http://schema.servermall.ru/props.json"
-        },
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schema.servermall.ru/dell/m620.json",
+  "title": "",
+  "description": "DELL POWEREDGE M620",
+  "allOf": [
+    {
+      "$ref": "./props.json"
+    },
+    {
+      "type": "object",
+      "properties": {
         "cpu": {
-            "type": "object",
-            "properties": {
-                "type": {"const": "LGA-2011"},
-                "parts": {
-                    "type": "array",
-                    "minItems": 1,
-                    "maxItems": 2,
-                    "items": {
-                        "$ref": "https://schema.servermall.ru/cpu.json#"
-                    }
-                }
+          "type": "object",
+          "description": "Категория CPU",
+          "properties": {
+            "parts": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 2,
+              "items": {
+                "$ref": "./cpu.json"
+              }
+            },
+            "_socket": {
+              "type": "string",
+              "enum": [
+                "lga-2011"
+              ],
+              "description": "Фильтр"
             }
+          },
+          "required": [
+            "_socket"
+          ]
         },
         "ram": {
-            "type": "object",
-            "properties": {
-                "type": {"const": "ddr3"},
-                "parts": {
-                    "type": "array",
-                    "minItems": 1,
-                    "maxItems": 24,
-                    "items": {
-                        "$ref": "https://schema.servermall.ru/ram.json#"
-                    }
-                }
+          "type": "object",
+          "properties": {
+            "parts": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 24,
+              "items": {
+                "$ref": "./ram.json"
+              }
+            },
+            "_type": {
+              "type": "string"
+            },
+            "_speed": {
+              "type": "string"
             }
+          }
         },
         "disk": {
-            "type": "object",
-            "properties": {
-                "type": {"const": "sff"},
-                "parts": {
-                    "type": "array",
-                    "minItems": 0,
-                    "maxItems": 2,
-                    "items": {
-                        "$ref": "https://schema.servermall.ru/disk.json#"
-                    }
-                }
+          "type": "object",
+          "properties": {
+            "parts": {
+              "type": "array",
+              "minItems": 0,
+              "maxItems": 2,
+              "items": {
+                "$ref": "./disk.v1.json"
+              }
+            },
+            "_type": {
+              "type": "string",
+              "enum": [
+                "sff",
+                "2.5"
+              ]
             }
+          }
         },
         "raid": {
-            "type": "object",
-            "properties": {
-                "type": {"const": "m6xx"},
-                "part": {
-                    "$ref": "https://schema.servermall.ru/raid.json#"
-                }
-            }
+          "$ref": "./raid.json"
         },
         "ndc": {
-            "type": "object",
-            "properties": {
-                "type": {"const": "m6xx"},
-                "part": {
-                    "$ref": "https://schema.servermall.ru/ndc.json#"
-                }
-            }
-        },
-        "pcie": {
-            "type": "array",
-            "items": {
-                "$ref": "https://schema.servermall.ru/pcie.json#"
-            }
-        },
-        "addons": {
-            "type": "array",
-            "items": {
-                "$ref": "https://schema.servermall.ru/addons.json#"
-            }
+          "$ref": "./net.json"
         }
+      }
     }
-  }
+  ]
+}

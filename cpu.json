@@ -1,29 +1,33 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "cpu.json#",
-    "type": "object",
-    "properties": {
-        "id": {
-            "type":"string"
-        },
-        "type": {
-            "type": "string"
-        },
-        "name": {
-            "type":"string"
-        },
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cpu.json#",
+  "allOf": [
+    {
+      "$ref": "./props.json"
+    },
+    {
+      "type": "object",
+      "properties": {
         "cores": {
-            "type": "integer"
+          "type": "integer"
         },
         "freq": {
-            "type":"number"
+          "type": "integer"
         },
-        "turbo": {
-            "type": "number"
+        "power": {
+          "type": "integer"
         },
-        "price": {
-            "type":"number"
+        "socket": {
+          "type": "integer"
         }
-    },
-    "required": ["id", "type", "name", "cores", "freq", "turbo","price"]
+      },
+      "required": [
+        "cores",
+        "freq",
+        "socket"
+      ]
+    }
+  ],
+  "description": "Процессор",
+  "title": ""
 }

@@ -1,29 +1,22 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "net.json#",
-    "type": "object",
-    "properties": {
-        "id": {
-            "type":"string"
-        },
-        "type": {
-            "type": "string"
-        },
-        "name": {
-            "type":"string"
-        },
-        "interface": {
-            "type": "string"
-        },
-        "speed": {
-            "type":"string"
-        },
-        "ports": {
-            "type": "string"
-        },
-        "price": {
-            "type":"number"
-        }
+  "allOf": [
+    {
+      "$ref": "./props.json"
     },
-    "required": ["id", "type", "name", "interface", "speed", "ports","price"]
+    {
+      "type": "object",
+      "properties": {
+        "ports": {
+          "type": [
+            "string",
+            "array"
+          ],
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  ],
+  "title": ""
 }

@@ -1,24 +1,36 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "ram.json#",
-    "type": "object",
-    "properties": {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ram.json#",
+  "allOf": [
+    {
+      "type": "object",
+      "properties": {
         "name": {
-            "type":"string"
+          "type": "string"
         },
         "format": {
-            "type": "string",
-            "enum": ["ddr3", "ddr4", "ddr4 sodimm"]
+          "type": "string",
+          "enum": [
+            "ddr3",
+            "ddr4",
+            "ddr4 sodimm"
+          ]
         },
         "freq": {
-            "type":"integer"
+          "type": "integer"
         },
         "size": {
-            "type": "integer"
-        },
-        "price": {
-            "type":"number"
+          "type": "integer"
         }
+      },
+      "required": [
+        "format",
+        "freq",
+        "size"
+      ]
     },
-    "required": ["format", "freq", "size", "price"]
+    {
+      "$ref": "./props.json"
+    }
+  ]
 }

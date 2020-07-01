@@ -1,29 +1,27 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "power.json#",
-    "type": "object",
-    "properties": {
-        "id": {
-            "type":"string"
-        },
-        "type": {
-            "type": "string"
-        },
-        "name": {
-            "type":"string"
-        },
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "power.json#",
+  "allOf": [
+    {
+      "type": "object",
+      "properties": {
         "power": {
-            "type": "integer"
+          "type": "integer"
         },
         "compatible": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            }
-        },
-        "price": {
-            "type": "integer"
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
+      },
+      "required": [
+        "power"
+      ]
     },
-    "required": ["id", "type", "name", "power", "price"]
+    {
+      "$ref": "./props.json"
+    }
+  ],
+  "title": ""
 }

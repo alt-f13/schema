@@ -1,0 +1,32 @@
+{
+  "title": "disk",
+  "x-tags": [
+    "ssd",
+    "hdd"
+  ],
+  "allOf": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "size": {
+          "type": "string"
+        },
+        "interface": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "$ref": "./props.json"
+    }
+  ]
+}
