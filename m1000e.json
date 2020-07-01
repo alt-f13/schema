@@ -1,86 +1,87 @@
 {
   "title": "m1000e",
-  "type": "object",
   "description": "Dell m1000e blade chasis",
   "x-examples": {},
-  "properties": {
-    "id": {
-      "type": "string",
-      "format": "uuid"
-    },
-    "type": {
-      "type": "string",
-      "enum": [
-        "chasis"
-      ]
-    },
-    "servers": {
+  "allOf": [
+    {
       "type": "object",
       "properties": {
-        "filter": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "type": {
           "type": "string",
           "enum": [
-            "m1000e"
+            "chasis"
           ]
         },
-        "parts": {
-          "type": "array",
-          "maxItems": 16,
-          "minItems": 0,
-          "items": {
-            "anyOf": [
-              {
-                "$ref": "./m620.json"
+        "servers": {
+          "type": "object",
+          "properties": {
+            "filter": {
+              "type": "string",
+              "enum": [
+                "m1000e"
+              ]
+            },
+            "parts": {
+              "type": "array",
+              "maxItems": 16,
+              "minItems": 0,
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "./m620.json"
+                  },
+                  {
+                    "$ref": "./m630.json"
+                  },
+                  {
+                    "$ref": "./m640.json"
+                  }
+                ]
               }
-            ]
+            }
+          }
+        },
+        "network": {
+          "type": "object",
+          "properties": {
+            "parts": {
+              "type": "array",
+              "maxItems": 6,
+              "minItems": 1,
+              "items": {}
+            }
+          }
+        },
+        "psu": {
+          "type": "object",
+          "properties": {
+            "parts": {
+              "type": "array",
+              "maxItems": 6,
+              "minItems": 2,
+              "items": {}
+            }
+          }
+        },
+        "fan": {
+          "type": "object",
+          "properties": {
+            "parts": {
+              "type": "array",
+              "maxItems": 9,
+              "minItems": 4,
+              "items": {}
+            }
           }
         }
       }
     },
-    "network": {
-      "type": "object",
-      "properties": {
-        "filter": {
-          "type": "string"
-        },
-        "parts": {
-          "type": "array",
-          "maxItems": 6,
-          "minItems": 1,
-          "items": {}
-        }
-      }
-    },
-    "psu": {
-      "type": "object",
-      "properties": {
-        "filter": {
-          "type": "string",
-          "enum": [
-            "m1000e"
-          ]
-        },
-        "parts": {
-          "type": "array",
-          "maxItems": 6,
-          "minItems": 2,
-          "items": {}
-        }
-      }
-    },
-    "fan": {
-      "type": "object",
-      "properties": {
-        "filter": {
-          "type": "string"
-        },
-        "parts": {
-          "type": "array",
-          "maxItems": 9,
-          "minItems": 4,
-          "items": {}
-        }
-      }
+    {
+      "$ref": "./props.json"
     }
-  }
+  ]
 }

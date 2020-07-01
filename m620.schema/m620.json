@@ -1,0 +1,329 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "allOf": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "type"
+        ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "properties": {
+            "type": "object",
+            "properties": {
+              "cpu": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "properties": {
+                    "type": "object",
+                    "properties": {
+                      "parts": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "minItems": {
+                            "type": "number"
+                          },
+                          "maxItems": {
+                            "type": "number"
+                          },
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "$ref": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "$ref"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "minItems",
+                          "maxItems",
+                          "items"
+                        ]
+                      },
+                      "_socket": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "enum": {
+                            "type": "array",
+                            "items": {
+                              "required": [],
+                              "properties": {}
+                            }
+                          },
+                          "description": {
+                            "type": "string",
+                            "minLength": 1
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "enum",
+                          "description"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "parts",
+                      "_socket"
+                    ]
+                  },
+                  "required": {
+                    "type": "array",
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  }
+                },
+                "required": [
+                  "type",
+                  "description",
+                  "properties",
+                  "required"
+                ]
+              },
+              "ram": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "properties": {
+                    "type": "object",
+                    "properties": {
+                      "parts": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "minItems": {
+                            "type": "number"
+                          },
+                          "maxItems": {
+                            "type": "number"
+                          },
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "$ref": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "$ref"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "minItems",
+                          "maxItems",
+                          "items"
+                        ]
+                      },
+                      "_type": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "minLength": 1
+                          }
+                        },
+                        "required": [
+                          "type"
+                        ]
+                      },
+                      "_speed": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "minLength": 1
+                          }
+                        },
+                        "required": [
+                          "type"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "parts",
+                      "_type",
+                      "_speed"
+                    ]
+                  }
+                },
+                "required": [
+                  "type",
+                  "properties"
+                ]
+              },
+              "disk": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "properties": {
+                    "type": "object",
+                    "properties": {
+                      "parts": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "minItems": {
+                            "type": "number"
+                          },
+                          "maxItems": {
+                            "type": "number"
+                          },
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "$ref": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "$ref"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "minItems",
+                          "maxItems",
+                          "items"
+                        ]
+                      },
+                      "_type": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "enum": {
+                            "type": "array",
+                            "items": {
+                              "required": [],
+                              "properties": {}
+                            }
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "enum"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "parts",
+                      "_type"
+                    ]
+                  }
+                },
+                "required": [
+                  "type",
+                  "properties"
+                ]
+              },
+              "raid": {
+                "type": "object",
+                "properties": {
+                  "$ref": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "$ref"
+                ]
+              },
+              "ndc": {
+                "type": "object",
+                "properties": {
+                  "$ref": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "$ref"
+                ]
+              }
+            },
+            "required": [
+              "cpu",
+              "ram",
+              "disk",
+              "raid",
+              "ndc"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "$schema",
+    "$id",
+    "title",
+    "description",
+    "allOf"
+  ]
+}
