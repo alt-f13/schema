@@ -1,0 +1,2170 @@
+{
+  "title": "m1000e",
+  "description": "Dell m1000e blade chasis",
+  "x-examples": {},
+  "allOf": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "chasis"
+          ]
+        },
+        "servers": {
+          "type": "object",
+          "properties": {
+            "filter": {
+              "type": "string",
+              "enum": [
+                "m1000e"
+              ]
+            },
+            "parts": {
+              "type": "array",
+              "maxItems": 16,
+              "minItems": 0,
+              "items": {
+                "anyOf": [
+                  {
+                    "$schema": "http://json-schema.org/draft-07/schema#",
+                    "$id": "https://schema.servermall.ru/dell/m620.json",
+                    "title": "",
+                    "description": "DELL POWEREDGE M620",
+                    "allOf": [
+                      {
+                        "$schema": "http://json-schema.org/draft-07/schema#",
+                        "$id": "https://schema.servermall.ru/dell/m620.json",
+                        "title": "",
+                        "description": "Свойства товаров",
+                        "type": "object",
+                        "properties": {
+                          "specification_version_name": {
+                            "type": "string"
+                          },
+                          "nomenclature_id": {
+                            "type": "string",
+                            "description": "КлючНоменклатураИдентификатор"
+                          },
+                          "nomenclature_name": {
+                            "type": "string",
+                            "description": "КлючНоменклатураИмя"
+                          },
+                          "specification_section_name": {
+                            "type": "string",
+                            "description": "КлючРазделСпецификацииИмя"
+                          },
+                          "directories": {
+                            "type": [
+                              "string",
+                              "array"
+                            ],
+                            "description": "КлючСправочники",
+                            "items": {}
+                          },
+                          "aggregate_functions": {
+                            "type": [
+                              "string",
+                              "array"
+                            ],
+                            "description": "КлючАггрегатныеФункции",
+                            "items": {}
+                          },
+                          "_exclude": {
+                            "type": [
+                              "array",
+                              "string"
+                            ],
+                            "description": "Исключения, для фильтрации категории",
+                            "items": {}
+                          },
+                          "_include": {
+                            "type": [
+                              "string",
+                              "array"
+                            ],
+                            "description": "Включения, фильтр",
+                            "items": {}
+                          },
+                          "_filter": {
+                            "type": [
+                              "string",
+                              "array"
+                            ],
+                            "description": "фильтр, дополнительные параметры",
+                            "items": {
+                              "type": "array",
+                              "items": {}
+                            }
+                          },
+                          "specification_id": {
+                            "type": "string",
+                            "description": "КлючСпецификацияИдентификатор"
+                          }
+                        },
+                        "required": [
+                          "nomenclature_id",
+                          "nomenclature_name",
+                          "specification_section_name",
+                          "directories"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "cpu": {
+                            "type": "object",
+                            "description": "Категория CPU",
+                            "properties": {
+                              "parts": {
+                                "type": "array",
+                                "minItems": 1,
+                                "maxItems": 2,
+                                "items": {
+                                  "$schema": "http://json-schema.org/draft-07/schema#",
+                                  "$id": "cpu.json#",
+                                  "allOf": [
+                                    {
+                                      "$schema": "http://json-schema.org/draft-07/schema#",
+                                      "$id": "https://schema.servermall.ru/dell/m620.json",
+                                      "title": "",
+                                      "description": "Свойства товаров",
+                                      "type": "object",
+                                      "properties": {
+                                        "specification_version_name": {
+                                          "type": "string"
+                                        },
+                                        "nomenclature_id": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИдентификатор"
+                                        },
+                                        "nomenclature_name": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИмя"
+                                        },
+                                        "specification_section_name": {
+                                          "type": "string",
+                                          "description": "КлючРазделСпецификацииИмя"
+                                        },
+                                        "directories": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючСправочники",
+                                          "items": {}
+                                        },
+                                        "aggregate_functions": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючАггрегатныеФункции",
+                                          "items": {}
+                                        },
+                                        "_exclude": {
+                                          "type": [
+                                            "array",
+                                            "string"
+                                          ],
+                                          "description": "Исключения, для фильтрации категории",
+                                          "items": {}
+                                        },
+                                        "_include": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "Включения, фильтр",
+                                          "items": {}
+                                        },
+                                        "_filter": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "фильтр, дополнительные параметры",
+                                          "items": {
+                                            "type": "array",
+                                            "items": {}
+                                          }
+                                        },
+                                        "specification_id": {
+                                          "type": "string",
+                                          "description": "КлючСпецификацияИдентификатор"
+                                        }
+                                      },
+                                      "required": [
+                                        "nomenclature_id",
+                                        "nomenclature_name",
+                                        "specification_section_name",
+                                        "directories"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "cores": {
+                                          "type": "integer"
+                                        },
+                                        "freq": {
+                                          "type": "integer"
+                                        },
+                                        "power": {
+                                          "type": "integer"
+                                        },
+                                        "socket": {
+                                          "type": "integer"
+                                        }
+                                      },
+                                      "required": [
+                                        "cores",
+                                        "freq",
+                                        "socket"
+                                      ]
+                                    }
+                                  ],
+                                  "description": "Процессор",
+                                  "title": ""
+                                }
+                              },
+                              "_socket": {
+                                "type": "string",
+                                "enum": [
+                                  "lga-2011"
+                                ],
+                                "description": "Фильтр"
+                              }
+                            },
+                            "required": [
+                              "_socket"
+                            ]
+                          },
+                          "ram": {
+                            "type": "object",
+                            "properties": {
+                              "parts": {
+                                "type": "array",
+                                "minItems": 1,
+                                "maxItems": 24,
+                                "items": {
+                                  "$schema": "http://json-schema.org/draft-07/schema#",
+                                  "$id": "ram.json#",
+                                  "allOf": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "format": {
+                                          "type": "string",
+                                          "enum": [
+                                            "ddr3",
+                                            "ddr4",
+                                            "ddr4 sodimm"
+                                          ]
+                                        },
+                                        "freq": {
+                                          "type": "integer"
+                                        },
+                                        "size": {
+                                          "type": "integer"
+                                        }
+                                      },
+                                      "required": [
+                                        "format",
+                                        "freq",
+                                        "size"
+                                      ]
+                                    },
+                                    {
+                                      "$schema": "http://json-schema.org/draft-07/schema#",
+                                      "$id": "https://schema.servermall.ru/dell/m620.json",
+                                      "title": "",
+                                      "description": "Свойства товаров",
+                                      "type": "object",
+                                      "properties": {
+                                        "specification_version_name": {
+                                          "type": "string"
+                                        },
+                                        "nomenclature_id": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИдентификатор"
+                                        },
+                                        "nomenclature_name": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИмя"
+                                        },
+                                        "specification_section_name": {
+                                          "type": "string",
+                                          "description": "КлючРазделСпецификацииИмя"
+                                        },
+                                        "directories": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючСправочники",
+                                          "items": {}
+                                        },
+                                        "aggregate_functions": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючАггрегатныеФункции",
+                                          "items": {}
+                                        },
+                                        "_exclude": {
+                                          "type": [
+                                            "array",
+                                            "string"
+                                          ],
+                                          "description": "Исключения, для фильтрации категории",
+                                          "items": {}
+                                        },
+                                        "_include": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "Включения, фильтр",
+                                          "items": {}
+                                        },
+                                        "_filter": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "фильтр, дополнительные параметры",
+                                          "items": {
+                                            "type": "array",
+                                            "items": {}
+                                          }
+                                        },
+                                        "specification_id": {
+                                          "type": "string",
+                                          "description": "КлючСпецификацияИдентификатор"
+                                        }
+                                      },
+                                      "required": [
+                                        "nomenclature_id",
+                                        "nomenclature_name",
+                                        "specification_section_name",
+                                        "directories"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "_type": {
+                                "type": "string"
+                              },
+                              "_speed": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "disk": {
+                            "type": "object",
+                            "properties": {
+                              "parts": {
+                                "type": "array",
+                                "minItems": 0,
+                                "maxItems": 2,
+                                "items": {
+                                  "title": "disk",
+                                  "x-tags": [
+                                    "ssd",
+                                    "hdd"
+                                  ],
+                                  "allOf": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "size": {
+                                          "type": "string"
+                                        },
+                                        "interface": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "$schema": "http://json-schema.org/draft-07/schema#",
+                                      "$id": "https://schema.servermall.ru/dell/m620.json",
+                                      "title": "",
+                                      "description": "Свойства товаров",
+                                      "type": "object",
+                                      "properties": {
+                                        "specification_version_name": {
+                                          "type": "string"
+                                        },
+                                        "nomenclature_id": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИдентификатор"
+                                        },
+                                        "nomenclature_name": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИмя"
+                                        },
+                                        "specification_section_name": {
+                                          "type": "string",
+                                          "description": "КлючРазделСпецификацииИмя"
+                                        },
+                                        "directories": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючСправочники",
+                                          "items": {}
+                                        },
+                                        "aggregate_functions": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючАггрегатныеФункции",
+                                          "items": {}
+                                        },
+                                        "_exclude": {
+                                          "type": [
+                                            "array",
+                                            "string"
+                                          ],
+                                          "description": "Исключения, для фильтрации категории",
+                                          "items": {}
+                                        },
+                                        "_include": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "Включения, фильтр",
+                                          "items": {}
+                                        },
+                                        "_filter": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "фильтр, дополнительные параметры",
+                                          "items": {
+                                            "type": "array",
+                                            "items": {}
+                                          }
+                                        },
+                                        "specification_id": {
+                                          "type": "string",
+                                          "description": "КлючСпецификацияИдентификатор"
+                                        }
+                                      },
+                                      "required": [
+                                        "nomenclature_id",
+                                        "nomenclature_name",
+                                        "specification_section_name",
+                                        "directories"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "_type": {
+                                "type": "string",
+                                "enum": [
+                                  "sff",
+                                  "2.5"
+                                ]
+                              }
+                            }
+                          },
+                          "raid": {
+                            "$schema": "http://json-schema.org/draft-07/schema#",
+                            "$id": "raid.json#",
+                            "allOf": [
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "interface": {
+                                    "type": "string"
+                                  },
+                                  "speed": {
+                                    "type": "string"
+                                  },
+                                  "cache": {
+                                    "type": "string"
+                                  },
+                                  "compatible": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "required": [
+                                  "interface"
+                                ]
+                              },
+                              {
+                                "$schema": "http://json-schema.org/draft-07/schema#",
+                                "$id": "https://schema.servermall.ru/dell/m620.json",
+                                "title": "",
+                                "description": "Свойства товаров",
+                                "type": "object",
+                                "properties": {
+                                  "specification_version_name": {
+                                    "type": "string"
+                                  },
+                                  "nomenclature_id": {
+                                    "type": "string",
+                                    "description": "КлючНоменклатураИдентификатор"
+                                  },
+                                  "nomenclature_name": {
+                                    "type": "string",
+                                    "description": "КлючНоменклатураИмя"
+                                  },
+                                  "specification_section_name": {
+                                    "type": "string",
+                                    "description": "КлючРазделСпецификацииИмя"
+                                  },
+                                  "directories": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "КлючСправочники",
+                                    "items": {}
+                                  },
+                                  "aggregate_functions": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "КлючАггрегатныеФункции",
+                                    "items": {}
+                                  },
+                                  "_exclude": {
+                                    "type": [
+                                      "array",
+                                      "string"
+                                    ],
+                                    "description": "Исключения, для фильтрации категории",
+                                    "items": {}
+                                  },
+                                  "_include": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "Включения, фильтр",
+                                    "items": {}
+                                  },
+                                  "_filter": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "фильтр, дополнительные параметры",
+                                    "items": {
+                                      "type": "array",
+                                      "items": {}
+                                    }
+                                  },
+                                  "specification_id": {
+                                    "type": "string",
+                                    "description": "КлючСпецификацияИдентификатор"
+                                  }
+                                },
+                                "required": [
+                                  "nomenclature_id",
+                                  "nomenclature_name",
+                                  "specification_section_name",
+                                  "directories"
+                                ]
+                              }
+                            ]
+                          },
+                          "ndc": {
+                            "allOf": [
+                              {
+                                "$schema": "http://json-schema.org/draft-07/schema#",
+                                "$id": "https://schema.servermall.ru/dell/m620.json",
+                                "title": "",
+                                "description": "Свойства товаров",
+                                "type": "object",
+                                "properties": {
+                                  "specification_version_name": {
+                                    "type": "string"
+                                  },
+                                  "nomenclature_id": {
+                                    "type": "string",
+                                    "description": "КлючНоменклатураИдентификатор"
+                                  },
+                                  "nomenclature_name": {
+                                    "type": "string",
+                                    "description": "КлючНоменклатураИмя"
+                                  },
+                                  "specification_section_name": {
+                                    "type": "string",
+                                    "description": "КлючРазделСпецификацииИмя"
+                                  },
+                                  "directories": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "КлючСправочники",
+                                    "items": {}
+                                  },
+                                  "aggregate_functions": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "КлючАггрегатныеФункции",
+                                    "items": {}
+                                  },
+                                  "_exclude": {
+                                    "type": [
+                                      "array",
+                                      "string"
+                                    ],
+                                    "description": "Исключения, для фильтрации категории",
+                                    "items": {}
+                                  },
+                                  "_include": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "Включения, фильтр",
+                                    "items": {}
+                                  },
+                                  "_filter": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "фильтр, дополнительные параметры",
+                                    "items": {
+                                      "type": "array",
+                                      "items": {}
+                                    }
+                                  },
+                                  "specification_id": {
+                                    "type": "string",
+                                    "description": "КлючСпецификацияИдентификатор"
+                                  }
+                                },
+                                "required": [
+                                  "nomenclature_id",
+                                  "nomenclature_name",
+                                  "specification_section_name",
+                                  "directories"
+                                ]
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "ports": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "title": ""
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$schema": "http://json-schema.org/draft-07/schema#",
+                    "$id": "https://schema.servermall.ru/dell/m620.json",
+                    "title": "",
+                    "description": "DELL POWEREDGE M630",
+                    "allOf": [
+                      {
+                        "$schema": "http://json-schema.org/draft-07/schema#",
+                        "$id": "https://schema.servermall.ru/dell/m620.json",
+                        "title": "",
+                        "description": "Свойства товаров",
+                        "type": "object",
+                        "properties": {
+                          "specification_version_name": {
+                            "type": "string"
+                          },
+                          "nomenclature_id": {
+                            "type": "string",
+                            "description": "КлючНоменклатураИдентификатор"
+                          },
+                          "nomenclature_name": {
+                            "type": "string",
+                            "description": "КлючНоменклатураИмя"
+                          },
+                          "specification_section_name": {
+                            "type": "string",
+                            "description": "КлючРазделСпецификацииИмя"
+                          },
+                          "directories": {
+                            "type": [
+                              "string",
+                              "array"
+                            ],
+                            "description": "КлючСправочники",
+                            "items": {}
+                          },
+                          "aggregate_functions": {
+                            "type": [
+                              "string",
+                              "array"
+                            ],
+                            "description": "КлючАггрегатныеФункции",
+                            "items": {}
+                          },
+                          "_exclude": {
+                            "type": [
+                              "array",
+                              "string"
+                            ],
+                            "description": "Исключения, для фильтрации категории",
+                            "items": {}
+                          },
+                          "_include": {
+                            "type": [
+                              "string",
+                              "array"
+                            ],
+                            "description": "Включения, фильтр",
+                            "items": {}
+                          },
+                          "_filter": {
+                            "type": [
+                              "string",
+                              "array"
+                            ],
+                            "description": "фильтр, дополнительные параметры",
+                            "items": {
+                              "type": "array",
+                              "items": {}
+                            }
+                          },
+                          "specification_id": {
+                            "type": "string",
+                            "description": "КлючСпецификацияИдентификатор"
+                          }
+                        },
+                        "required": [
+                          "nomenclature_id",
+                          "nomenclature_name",
+                          "specification_section_name",
+                          "directories"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "cpu": {
+                            "type": "object",
+                            "description": "Категория CPU",
+                            "properties": {
+                              "parts": {
+                                "type": "array",
+                                "minItems": 1,
+                                "maxItems": 2,
+                                "items": {
+                                  "$schema": "http://json-schema.org/draft-07/schema#",
+                                  "$id": "cpu.json#",
+                                  "allOf": [
+                                    {
+                                      "$schema": "http://json-schema.org/draft-07/schema#",
+                                      "$id": "https://schema.servermall.ru/dell/m620.json",
+                                      "title": "",
+                                      "description": "Свойства товаров",
+                                      "type": "object",
+                                      "properties": {
+                                        "specification_version_name": {
+                                          "type": "string"
+                                        },
+                                        "nomenclature_id": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИдентификатор"
+                                        },
+                                        "nomenclature_name": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИмя"
+                                        },
+                                        "specification_section_name": {
+                                          "type": "string",
+                                          "description": "КлючРазделСпецификацииИмя"
+                                        },
+                                        "directories": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючСправочники",
+                                          "items": {}
+                                        },
+                                        "aggregate_functions": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючАггрегатныеФункции",
+                                          "items": {}
+                                        },
+                                        "_exclude": {
+                                          "type": [
+                                            "array",
+                                            "string"
+                                          ],
+                                          "description": "Исключения, для фильтрации категории",
+                                          "items": {}
+                                        },
+                                        "_include": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "Включения, фильтр",
+                                          "items": {}
+                                        },
+                                        "_filter": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "фильтр, дополнительные параметры",
+                                          "items": {
+                                            "type": "array",
+                                            "items": {}
+                                          }
+                                        },
+                                        "specification_id": {
+                                          "type": "string",
+                                          "description": "КлючСпецификацияИдентификатор"
+                                        }
+                                      },
+                                      "required": [
+                                        "nomenclature_id",
+                                        "nomenclature_name",
+                                        "specification_section_name",
+                                        "directories"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "cores": {
+                                          "type": "integer"
+                                        },
+                                        "freq": {
+                                          "type": "integer"
+                                        },
+                                        "power": {
+                                          "type": "integer"
+                                        },
+                                        "socket": {
+                                          "type": "integer"
+                                        }
+                                      },
+                                      "required": [
+                                        "cores",
+                                        "freq",
+                                        "socket"
+                                      ]
+                                    }
+                                  ],
+                                  "description": "Процессор",
+                                  "title": ""
+                                }
+                              },
+                              "_socket": {
+                                "type": "string",
+                                "enum": [
+                                  "lga-2011"
+                                ],
+                                "description": "Фильтр"
+                              }
+                            },
+                            "required": [
+                              "_socket"
+                            ]
+                          },
+                          "ram": {
+                            "type": "object",
+                            "properties": {
+                              "parts": {
+                                "type": "array",
+                                "minItems": 1,
+                                "maxItems": 24,
+                                "items": {
+                                  "$schema": "http://json-schema.org/draft-07/schema#",
+                                  "$id": "ram.json#",
+                                  "allOf": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "format": {
+                                          "type": "string",
+                                          "enum": [
+                                            "ddr3",
+                                            "ddr4",
+                                            "ddr4 sodimm"
+                                          ]
+                                        },
+                                        "freq": {
+                                          "type": "integer"
+                                        },
+                                        "size": {
+                                          "type": "integer"
+                                        }
+                                      },
+                                      "required": [
+                                        "format",
+                                        "freq",
+                                        "size"
+                                      ]
+                                    },
+                                    {
+                                      "$schema": "http://json-schema.org/draft-07/schema#",
+                                      "$id": "https://schema.servermall.ru/dell/m620.json",
+                                      "title": "",
+                                      "description": "Свойства товаров",
+                                      "type": "object",
+                                      "properties": {
+                                        "specification_version_name": {
+                                          "type": "string"
+                                        },
+                                        "nomenclature_id": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИдентификатор"
+                                        },
+                                        "nomenclature_name": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИмя"
+                                        },
+                                        "specification_section_name": {
+                                          "type": "string",
+                                          "description": "КлючРазделСпецификацииИмя"
+                                        },
+                                        "directories": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючСправочники",
+                                          "items": {}
+                                        },
+                                        "aggregate_functions": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючАггрегатныеФункции",
+                                          "items": {}
+                                        },
+                                        "_exclude": {
+                                          "type": [
+                                            "array",
+                                            "string"
+                                          ],
+                                          "description": "Исключения, для фильтрации категории",
+                                          "items": {}
+                                        },
+                                        "_include": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "Включения, фильтр",
+                                          "items": {}
+                                        },
+                                        "_filter": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "фильтр, дополнительные параметры",
+                                          "items": {
+                                            "type": "array",
+                                            "items": {}
+                                          }
+                                        },
+                                        "specification_id": {
+                                          "type": "string",
+                                          "description": "КлючСпецификацияИдентификатор"
+                                        }
+                                      },
+                                      "required": [
+                                        "nomenclature_id",
+                                        "nomenclature_name",
+                                        "specification_section_name",
+                                        "directories"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "_type": {
+                                "type": "string"
+                              },
+                              "_speed": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "disk": {
+                            "type": "object",
+                            "properties": {
+                              "parts": {
+                                "type": "array",
+                                "minItems": 0,
+                                "maxItems": 2,
+                                "items": {
+                                  "title": "disk",
+                                  "x-tags": [
+                                    "ssd",
+                                    "hdd"
+                                  ],
+                                  "allOf": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "size": {
+                                          "type": "string"
+                                        },
+                                        "interface": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "$schema": "http://json-schema.org/draft-07/schema#",
+                                      "$id": "https://schema.servermall.ru/dell/m620.json",
+                                      "title": "",
+                                      "description": "Свойства товаров",
+                                      "type": "object",
+                                      "properties": {
+                                        "specification_version_name": {
+                                          "type": "string"
+                                        },
+                                        "nomenclature_id": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИдентификатор"
+                                        },
+                                        "nomenclature_name": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИмя"
+                                        },
+                                        "specification_section_name": {
+                                          "type": "string",
+                                          "description": "КлючРазделСпецификацииИмя"
+                                        },
+                                        "directories": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючСправочники",
+                                          "items": {}
+                                        },
+                                        "aggregate_functions": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючАггрегатныеФункции",
+                                          "items": {}
+                                        },
+                                        "_exclude": {
+                                          "type": [
+                                            "array",
+                                            "string"
+                                          ],
+                                          "description": "Исключения, для фильтрации категории",
+                                          "items": {}
+                                        },
+                                        "_include": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "Включения, фильтр",
+                                          "items": {}
+                                        },
+                                        "_filter": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "фильтр, дополнительные параметры",
+                                          "items": {
+                                            "type": "array",
+                                            "items": {}
+                                          }
+                                        },
+                                        "specification_id": {
+                                          "type": "string",
+                                          "description": "КлючСпецификацияИдентификатор"
+                                        }
+                                      },
+                                      "required": [
+                                        "nomenclature_id",
+                                        "nomenclature_name",
+                                        "specification_section_name",
+                                        "directories"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "_type": {
+                                "type": "string",
+                                "enum": [
+                                  "sff",
+                                  "2.5"
+                                ]
+                              }
+                            }
+                          },
+                          "raid": {
+                            "$schema": "http://json-schema.org/draft-07/schema#",
+                            "$id": "raid.json#",
+                            "allOf": [
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "interface": {
+                                    "type": "string"
+                                  },
+                                  "speed": {
+                                    "type": "string"
+                                  },
+                                  "cache": {
+                                    "type": "string"
+                                  },
+                                  "compatible": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "required": [
+                                  "interface"
+                                ]
+                              },
+                              {
+                                "$schema": "http://json-schema.org/draft-07/schema#",
+                                "$id": "https://schema.servermall.ru/dell/m620.json",
+                                "title": "",
+                                "description": "Свойства товаров",
+                                "type": "object",
+                                "properties": {
+                                  "specification_version_name": {
+                                    "type": "string"
+                                  },
+                                  "nomenclature_id": {
+                                    "type": "string",
+                                    "description": "КлючНоменклатураИдентификатор"
+                                  },
+                                  "nomenclature_name": {
+                                    "type": "string",
+                                    "description": "КлючНоменклатураИмя"
+                                  },
+                                  "specification_section_name": {
+                                    "type": "string",
+                                    "description": "КлючРазделСпецификацииИмя"
+                                  },
+                                  "directories": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "КлючСправочники",
+                                    "items": {}
+                                  },
+                                  "aggregate_functions": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "КлючАггрегатныеФункции",
+                                    "items": {}
+                                  },
+                                  "_exclude": {
+                                    "type": [
+                                      "array",
+                                      "string"
+                                    ],
+                                    "description": "Исключения, для фильтрации категории",
+                                    "items": {}
+                                  },
+                                  "_include": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "Включения, фильтр",
+                                    "items": {}
+                                  },
+                                  "_filter": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "фильтр, дополнительные параметры",
+                                    "items": {
+                                      "type": "array",
+                                      "items": {}
+                                    }
+                                  },
+                                  "specification_id": {
+                                    "type": "string",
+                                    "description": "КлючСпецификацияИдентификатор"
+                                  }
+                                },
+                                "required": [
+                                  "nomenclature_id",
+                                  "nomenclature_name",
+                                  "specification_section_name",
+                                  "directories"
+                                ]
+                              }
+                            ]
+                          },
+                          "ndc": {
+                            "allOf": [
+                              {
+                                "$schema": "http://json-schema.org/draft-07/schema#",
+                                "$id": "https://schema.servermall.ru/dell/m620.json",
+                                "title": "",
+                                "description": "Свойства товаров",
+                                "type": "object",
+                                "properties": {
+                                  "specification_version_name": {
+                                    "type": "string"
+                                  },
+                                  "nomenclature_id": {
+                                    "type": "string",
+                                    "description": "КлючНоменклатураИдентификатор"
+                                  },
+                                  "nomenclature_name": {
+                                    "type": "string",
+                                    "description": "КлючНоменклатураИмя"
+                                  },
+                                  "specification_section_name": {
+                                    "type": "string",
+                                    "description": "КлючРазделСпецификацииИмя"
+                                  },
+                                  "directories": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "КлючСправочники",
+                                    "items": {}
+                                  },
+                                  "aggregate_functions": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "КлючАггрегатныеФункции",
+                                    "items": {}
+                                  },
+                                  "_exclude": {
+                                    "type": [
+                                      "array",
+                                      "string"
+                                    ],
+                                    "description": "Исключения, для фильтрации категории",
+                                    "items": {}
+                                  },
+                                  "_include": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "Включения, фильтр",
+                                    "items": {}
+                                  },
+                                  "_filter": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "фильтр, дополнительные параметры",
+                                    "items": {
+                                      "type": "array",
+                                      "items": {}
+                                    }
+                                  },
+                                  "specification_id": {
+                                    "type": "string",
+                                    "description": "КлючСпецификацияИдентификатор"
+                                  }
+                                },
+                                "required": [
+                                  "nomenclature_id",
+                                  "nomenclature_name",
+                                  "specification_section_name",
+                                  "directories"
+                                ]
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "ports": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "title": ""
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$schema": "http://json-schema.org/draft-07/schema#",
+                    "$id": "https://schema.servermall.ru/dell/m620.json",
+                    "title": "",
+                    "description": "DELL POWEREDGE M640",
+                    "allOf": [
+                      {
+                        "$schema": "http://json-schema.org/draft-07/schema#",
+                        "$id": "https://schema.servermall.ru/dell/m620.json",
+                        "title": "",
+                        "description": "Свойства товаров",
+                        "type": "object",
+                        "properties": {
+                          "specification_version_name": {
+                            "type": "string"
+                          },
+                          "nomenclature_id": {
+                            "type": "string",
+                            "description": "КлючНоменклатураИдентификатор"
+                          },
+                          "nomenclature_name": {
+                            "type": "string",
+                            "description": "КлючНоменклатураИмя"
+                          },
+                          "specification_section_name": {
+                            "type": "string",
+                            "description": "КлючРазделСпецификацииИмя"
+                          },
+                          "directories": {
+                            "type": [
+                              "string",
+                              "array"
+                            ],
+                            "description": "КлючСправочники",
+                            "items": {}
+                          },
+                          "aggregate_functions": {
+                            "type": [
+                              "string",
+                              "array"
+                            ],
+                            "description": "КлючАггрегатныеФункции",
+                            "items": {}
+                          },
+                          "_exclude": {
+                            "type": [
+                              "array",
+                              "string"
+                            ],
+                            "description": "Исключения, для фильтрации категории",
+                            "items": {}
+                          },
+                          "_include": {
+                            "type": [
+                              "string",
+                              "array"
+                            ],
+                            "description": "Включения, фильтр",
+                            "items": {}
+                          },
+                          "_filter": {
+                            "type": [
+                              "string",
+                              "array"
+                            ],
+                            "description": "фильтр, дополнительные параметры",
+                            "items": {
+                              "type": "array",
+                              "items": {}
+                            }
+                          },
+                          "specification_id": {
+                            "type": "string",
+                            "description": "КлючСпецификацияИдентификатор"
+                          }
+                        },
+                        "required": [
+                          "nomenclature_id",
+                          "nomenclature_name",
+                          "specification_section_name",
+                          "directories"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "cpu": {
+                            "type": "object",
+                            "description": "Категория CPU",
+                            "properties": {
+                              "parts": {
+                                "type": "array",
+                                "minItems": 1,
+                                "maxItems": 2,
+                                "items": {
+                                  "$schema": "http://json-schema.org/draft-07/schema#",
+                                  "$id": "cpu.json#",
+                                  "allOf": [
+                                    {
+                                      "$schema": "http://json-schema.org/draft-07/schema#",
+                                      "$id": "https://schema.servermall.ru/dell/m620.json",
+                                      "title": "",
+                                      "description": "Свойства товаров",
+                                      "type": "object",
+                                      "properties": {
+                                        "specification_version_name": {
+                                          "type": "string"
+                                        },
+                                        "nomenclature_id": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИдентификатор"
+                                        },
+                                        "nomenclature_name": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИмя"
+                                        },
+                                        "specification_section_name": {
+                                          "type": "string",
+                                          "description": "КлючРазделСпецификацииИмя"
+                                        },
+                                        "directories": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючСправочники",
+                                          "items": {}
+                                        },
+                                        "aggregate_functions": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючАггрегатныеФункции",
+                                          "items": {}
+                                        },
+                                        "_exclude": {
+                                          "type": [
+                                            "array",
+                                            "string"
+                                          ],
+                                          "description": "Исключения, для фильтрации категории",
+                                          "items": {}
+                                        },
+                                        "_include": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "Включения, фильтр",
+                                          "items": {}
+                                        },
+                                        "_filter": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "фильтр, дополнительные параметры",
+                                          "items": {
+                                            "type": "array",
+                                            "items": {}
+                                          }
+                                        },
+                                        "specification_id": {
+                                          "type": "string",
+                                          "description": "КлючСпецификацияИдентификатор"
+                                        }
+                                      },
+                                      "required": [
+                                        "nomenclature_id",
+                                        "nomenclature_name",
+                                        "specification_section_name",
+                                        "directories"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "cores": {
+                                          "type": "integer"
+                                        },
+                                        "freq": {
+                                          "type": "integer"
+                                        },
+                                        "power": {
+                                          "type": "integer"
+                                        },
+                                        "socket": {
+                                          "type": "integer"
+                                        }
+                                      },
+                                      "required": [
+                                        "cores",
+                                        "freq",
+                                        "socket"
+                                      ]
+                                    }
+                                  ],
+                                  "description": "Процессор",
+                                  "title": ""
+                                }
+                              },
+                              "_socket": {
+                                "type": "string",
+                                "description": "Фильтр",
+                                "enum": [
+                                  "FCLGA3647"
+                                ]
+                              }
+                            },
+                            "required": [
+                              "parts",
+                              "_socket"
+                            ]
+                          },
+                          "ram": {
+                            "type": "object",
+                            "properties": {
+                              "parts": {
+                                "type": "array",
+                                "minItems": 1,
+                                "maxItems": 24,
+                                "items": {
+                                  "$schema": "http://json-schema.org/draft-07/schema#",
+                                  "$id": "ram.json#",
+                                  "allOf": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "format": {
+                                          "type": "string",
+                                          "enum": [
+                                            "ddr3",
+                                            "ddr4",
+                                            "ddr4 sodimm"
+                                          ]
+                                        },
+                                        "freq": {
+                                          "type": "integer"
+                                        },
+                                        "size": {
+                                          "type": "integer"
+                                        }
+                                      },
+                                      "required": [
+                                        "format",
+                                        "freq",
+                                        "size"
+                                      ]
+                                    },
+                                    {
+                                      "$schema": "http://json-schema.org/draft-07/schema#",
+                                      "$id": "https://schema.servermall.ru/dell/m620.json",
+                                      "title": "",
+                                      "description": "Свойства товаров",
+                                      "type": "object",
+                                      "properties": {
+                                        "specification_version_name": {
+                                          "type": "string"
+                                        },
+                                        "nomenclature_id": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИдентификатор"
+                                        },
+                                        "nomenclature_name": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИмя"
+                                        },
+                                        "specification_section_name": {
+                                          "type": "string",
+                                          "description": "КлючРазделСпецификацииИмя"
+                                        },
+                                        "directories": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючСправочники",
+                                          "items": {}
+                                        },
+                                        "aggregate_functions": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючАггрегатныеФункции",
+                                          "items": {}
+                                        },
+                                        "_exclude": {
+                                          "type": [
+                                            "array",
+                                            "string"
+                                          ],
+                                          "description": "Исключения, для фильтрации категории",
+                                          "items": {}
+                                        },
+                                        "_include": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "Включения, фильтр",
+                                          "items": {}
+                                        },
+                                        "_filter": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "фильтр, дополнительные параметры",
+                                          "items": {
+                                            "type": "array",
+                                            "items": {}
+                                          }
+                                        },
+                                        "specification_id": {
+                                          "type": "string",
+                                          "description": "КлючСпецификацияИдентификатор"
+                                        }
+                                      },
+                                      "required": [
+                                        "nomenclature_id",
+                                        "nomenclature_name",
+                                        "specification_section_name",
+                                        "directories"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "_type": {
+                                "type": "string",
+                                "enum": [
+                                  "ddr4",
+                                  "dimm",
+                                  "lrdimm",
+                                  "rdimm"
+                                ]
+                              },
+                              "_speed": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "parts",
+                              "_type"
+                            ]
+                          },
+                          "disk": {
+                            "type": "object",
+                            "properties": {
+                              "parts": {
+                                "type": "array",
+                                "minItems": 0,
+                                "maxItems": 2,
+                                "items": {
+                                  "title": "disk",
+                                  "x-tags": [
+                                    "ssd",
+                                    "hdd"
+                                  ],
+                                  "allOf": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "size": {
+                                          "type": "string"
+                                        },
+                                        "interface": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "$schema": "http://json-schema.org/draft-07/schema#",
+                                      "$id": "https://schema.servermall.ru/dell/m620.json",
+                                      "title": "",
+                                      "description": "Свойства товаров",
+                                      "type": "object",
+                                      "properties": {
+                                        "specification_version_name": {
+                                          "type": "string"
+                                        },
+                                        "nomenclature_id": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИдентификатор"
+                                        },
+                                        "nomenclature_name": {
+                                          "type": "string",
+                                          "description": "КлючНоменклатураИмя"
+                                        },
+                                        "specification_section_name": {
+                                          "type": "string",
+                                          "description": "КлючРазделСпецификацииИмя"
+                                        },
+                                        "directories": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючСправочники",
+                                          "items": {}
+                                        },
+                                        "aggregate_functions": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "КлючАггрегатныеФункции",
+                                          "items": {}
+                                        },
+                                        "_exclude": {
+                                          "type": [
+                                            "array",
+                                            "string"
+                                          ],
+                                          "description": "Исключения, для фильтрации категории",
+                                          "items": {}
+                                        },
+                                        "_include": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "Включения, фильтр",
+                                          "items": {}
+                                        },
+                                        "_filter": {
+                                          "type": [
+                                            "string",
+                                            "array"
+                                          ],
+                                          "description": "фильтр, дополнительные параметры",
+                                          "items": {
+                                            "type": "array",
+                                            "items": {}
+                                          }
+                                        },
+                                        "specification_id": {
+                                          "type": "string",
+                                          "description": "КлючСпецификацияИдентификатор"
+                                        }
+                                      },
+                                      "required": [
+                                        "nomenclature_id",
+                                        "nomenclature_name",
+                                        "specification_section_name",
+                                        "directories"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "_type": {
+                                "type": "string",
+                                "enum": [
+                                  "sff",
+                                  "2.5"
+                                ]
+                              }
+                            }
+                          },
+                          "raid": {
+                            "$schema": "http://json-schema.org/draft-07/schema#",
+                            "$id": "raid.json#",
+                            "allOf": [
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "interface": {
+                                    "type": "string"
+                                  },
+                                  "speed": {
+                                    "type": "string"
+                                  },
+                                  "cache": {
+                                    "type": "string"
+                                  },
+                                  "compatible": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "required": [
+                                  "interface"
+                                ]
+                              },
+                              {
+                                "$schema": "http://json-schema.org/draft-07/schema#",
+                                "$id": "https://schema.servermall.ru/dell/m620.json",
+                                "title": "",
+                                "description": "Свойства товаров",
+                                "type": "object",
+                                "properties": {
+                                  "specification_version_name": {
+                                    "type": "string"
+                                  },
+                                  "nomenclature_id": {
+                                    "type": "string",
+                                    "description": "КлючНоменклатураИдентификатор"
+                                  },
+                                  "nomenclature_name": {
+                                    "type": "string",
+                                    "description": "КлючНоменклатураИмя"
+                                  },
+                                  "specification_section_name": {
+                                    "type": "string",
+                                    "description": "КлючРазделСпецификацииИмя"
+                                  },
+                                  "directories": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "КлючСправочники",
+                                    "items": {}
+                                  },
+                                  "aggregate_functions": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "КлючАггрегатныеФункции",
+                                    "items": {}
+                                  },
+                                  "_exclude": {
+                                    "type": [
+                                      "array",
+                                      "string"
+                                    ],
+                                    "description": "Исключения, для фильтрации категории",
+                                    "items": {}
+                                  },
+                                  "_include": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "Включения, фильтр",
+                                    "items": {}
+                                  },
+                                  "_filter": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "фильтр, дополнительные параметры",
+                                    "items": {
+                                      "type": "array",
+                                      "items": {}
+                                    }
+                                  },
+                                  "specification_id": {
+                                    "type": "string",
+                                    "description": "КлючСпецификацияИдентификатор"
+                                  }
+                                },
+                                "required": [
+                                  "nomenclature_id",
+                                  "nomenclature_name",
+                                  "specification_section_name",
+                                  "directories"
+                                ]
+                              }
+                            ]
+                          },
+                          "ndc": {
+                            "allOf": [
+                              {
+                                "$schema": "http://json-schema.org/draft-07/schema#",
+                                "$id": "https://schema.servermall.ru/dell/m620.json",
+                                "title": "",
+                                "description": "Свойства товаров",
+                                "type": "object",
+                                "properties": {
+                                  "specification_version_name": {
+                                    "type": "string"
+                                  },
+                                  "nomenclature_id": {
+                                    "type": "string",
+                                    "description": "КлючНоменклатураИдентификатор"
+                                  },
+                                  "nomenclature_name": {
+                                    "type": "string",
+                                    "description": "КлючНоменклатураИмя"
+                                  },
+                                  "specification_section_name": {
+                                    "type": "string",
+                                    "description": "КлючРазделСпецификацииИмя"
+                                  },
+                                  "directories": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "КлючСправочники",
+                                    "items": {}
+                                  },
+                                  "aggregate_functions": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "КлючАггрегатныеФункции",
+                                    "items": {}
+                                  },
+                                  "_exclude": {
+                                    "type": [
+                                      "array",
+                                      "string"
+                                    ],
+                                    "description": "Исключения, для фильтрации категории",
+                                    "items": {}
+                                  },
+                                  "_include": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "Включения, фильтр",
+                                    "items": {}
+                                  },
+                                  "_filter": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "description": "фильтр, дополнительные параметры",
+                                    "items": {
+                                      "type": "array",
+                                      "items": {}
+                                    }
+                                  },
+                                  "specification_id": {
+                                    "type": "string",
+                                    "description": "КлючСпецификацияИдентификатор"
+                                  }
+                                },
+                                "required": [
+                                  "nomenclature_id",
+                                  "nomenclature_name",
+                                  "specification_section_name",
+                                  "directories"
+                                ]
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "ports": {
+                                    "type": [
+                                      "string",
+                                      "array"
+                                    ],
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "title": ""
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "network": {
+          "type": "object",
+          "properties": {
+            "parts": {
+              "type": "array",
+              "maxItems": 6,
+              "minItems": 1,
+              "items": {}
+            }
+          }
+        },
+        "psu": {
+          "type": "object",
+          "properties": {
+            "parts": {
+              "type": "array",
+              "maxItems": 6,
+              "minItems": 2,
+              "items": {}
+            }
+          }
+        },
+        "fan": {
+          "type": "object",
+          "properties": {
+            "parts": {
+              "type": "array",
+              "maxItems": 9,
+              "minItems": 4,
+              "items": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "$id": "https://schema.servermall.ru/dell/m620.json",
+      "title": "",
+      "description": "Свойства товаров",
+      "type": "object",
+      "properties": {
+        "specification_version_name": {
+          "type": "string"
+        },
+        "nomenclature_id": {
+          "type": "string",
+          "description": "КлючНоменклатураИдентификатор"
+        },
+        "nomenclature_name": {
+          "type": "string",
+          "description": "КлючНоменклатураИмя"
+        },
+        "specification_section_name": {
+          "type": "string",
+          "description": "КлючРазделСпецификацииИмя"
+        },
+        "directories": {
+          "type": [
+            "string",
+            "array"
+          ],
+          "description": "КлючСправочники",
+          "items": {}
+        },
+        "aggregate_functions": {
+          "type": [
+            "string",
+            "array"
+          ],
+          "description": "КлючАггрегатныеФункции",
+          "items": {}
+        },
+        "_exclude": {
+          "type": [
+            "array",
+            "string"
+          ],
+          "description": "Исключения, для фильтрации категории",
+          "items": {}
+        },
+        "_include": {
+          "type": [
+            "string",
+            "array"
+          ],
+          "description": "Включения, фильтр",
+          "items": {}
+        },
+        "_filter": {
+          "type": [
+            "string",
+            "array"
+          ],
+          "description": "фильтр, дополнительные параметры",
+          "items": {
+            "type": "array",
+            "items": {}
+          }
+        },
+        "specification_id": {
+          "type": "string",
+          "description": "КлючСпецификацияИдентификатор"
+        }
+      },
+      "required": [
+        "nomenclature_id",
+        "nomenclature_name",
+        "specification_section_name",
+        "directories"
+      ]
+    }
+  ]
+}

@@ -5,9 +5,6 @@
   "description": "Свойства товаров",
   "type": "object",
   "properties": {
-    "specification_version_id": {
-      "type": "string"
-    },
     "specification_version_name": {
       "type": "string"
     },
@@ -19,21 +16,44 @@
       "type": "string",
       "description": "КлючНоменклатураИмя"
     },
-    "characteristic_id": {
-      "type": "string",
-      "description": "КлючХарактеристикаИдентификатор"
-    },
     "specification_section_name": {
       "type": "string",
       "description": "КлючРазделСпецификацииИмя"
     },
     "directories": {
-      "type": "string",
-      "description": "КлючСправочники"
+      "type": "array",
+      "description": "КлючСправочники",
+      "items": {}
     },
     "aggregate_functions": {
+      "type": "array",
+      "description": "КлючАггрегатныеФункции",
+      "items": {}
+    },
+    "_exclude": {
+      "type": "array",
+      "description": "Исключения, для фильтрации категории",
+      "items": {}
+    },
+    "_include": {
+      "type": "array",
+      "description": "Включения, фильтр",
+      "items": {}
+    },
+    "_filter": {
+      "type": "array",
+      "description": "фильтр, дополнительные параметры",
+      "items": {}
+    },
+    "specification_id": {
       "type": "string",
-      "description": "КлючАггрегатныеФункции"
+      "description": "КлючСпецификацияИдентификатор"
     }
-  }
+  },
+  "required": [
+    "nomenclature_id",
+    "nomenclature_name",
+    "specification_section_name",
+    "directories"
+  ]
 }

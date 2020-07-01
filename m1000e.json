@@ -1,7 +1,9 @@
 {
   "title": "m1000e",
   "description": "Dell m1000e blade chasis",
-  "x-examples": {},
+  "x-examples": {
+    "example-1": {}
+  },
   "allOf": [
     {
       "type": "object",
